@@ -6,6 +6,9 @@
   "main": "dist/main.js",
   "module": "dist/module.js",
   "types": "dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
@@ -17,8 +20,6 @@
     "typecheck": "tsc --noEmit",
     "test": "parcel build tests/**/*.test.ts && jest"
   },
-  "author": "mhnpd",
-  "license": "ISC",
   "devDependencies": {
     "@parcel/packager-ts": "^2.9.3",
     "@parcel/transformer-typescript-types": "^2.9.3",
@@ -45,5 +46,18 @@
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhnpd/react-typescript-library"
+  },
+  "keywords": [
+    "your-keyword"
+  ],
+  "license": "MIT",
+  "author": "mhnpd",
+  "homepage": "https://github.com/mhnpd/react-typescript-library#readme",
+  "bugs": {
+    "url": "https://github.com/mhnpd/react-typescript-library/issues"
   }
 }

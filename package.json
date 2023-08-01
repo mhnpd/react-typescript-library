@@ -13,7 +13,7 @@
     "predeploy": "styleguidist build",
     "deploy": "gh-pages -d styleguide",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
-    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "parcel build tests/**/*.test.ts && jest"
   },

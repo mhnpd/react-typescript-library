@@ -41,15 +41,6 @@ Join the ranks of passionate developers using our boilerplate to accelerate thei
    npm run lint
    ```
 
-7. Prepare for Publish:
-   ```
-   npm run prepare
-   ```
-
-8. Publish to NPM:
-   ```
-   npm publish
-   ```
 
 Now, you've got a solid foundation to create and share your own React TypeScript NPM package. 🌟 Happy coding! 🎉🚀
 

@@ -20,6 +20,8 @@
     "@parcel/transformer-typescript-types": "^2.9.3",
     "gh-pages": "^5.0.0",
     "parcel": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-styleguidist": "^13.1.1",
     "ts-loader": "^9.4.4",
     "typescript": "^5.1.6",
